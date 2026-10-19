@@ -1,0 +1,12 @@
+CPR ESP32 Monitor
+Copyright 2026 KazeLiu
+
+The board display, touch and power setup is adapted from Waveshare's
+ESP32-S3-Touch-LCD-3.49 V2 examples (Apache License 2.0).
+https://github.com/waveshareteam/ESP32-S3-Touch-LCD-3.49-V2
+See licenses/Waveshare-Apache-2.0.txt and THIRD_PARTY.md.
+
+This application uses MiSans Regular. MiSans font data is copyright Xiaomi Inc.
+and is provided under the separate MiSans Font Intellectual Property License
+Agreement in licenses/MiSans-License.pdf, not under the project's Apache license.
+The original font files are not distributed in this repository.

@@ -1,0 +1,23 @@
+menu "CPR Monitor"
+
+config CPR_BASE_URL
+    string "CPR base URL (HTTPS, no trailing slash)"
+    default "https://cpr.example.com"
+    help
+        Set the HTTPS address of your CPR instance, including its port if needed.
+        Do not append a trailing slash or the /api path.
+
+config PC_MONITOR_WIFI_SSID
+    string "WiFi name (2.4 GHz)"
+    default ""
+    help
+        Use a 2.4 GHz network with access to your CPR instance and an NTP server.
+
+config PC_MONITOR_WIFI_PASSWORD
+    string "WiFi password"
+    default ""
+    help
+        Leave empty only for an open network. This value is stored in the
+        local sdkconfig and firmware. Do not share those files.
+
+endmenu
